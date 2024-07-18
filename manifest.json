@@ -1,0 +1,17 @@
+{
+	"include": [
+		"$(MODDABLE)/examples/manifest_base.json",
+		"$(MODULES)/base/worker/manifest.json"
+	],
+	"modules": {
+		"root/main": "./src/main",
+
+		"root/#example": "./src/#example",
+		"root/example/index": "./src/example/index",
+		"root/example/startWorker": "./src/example/startWorker",
+		"root/example/worker": "./src/example/worker"
+	},
+	"creation": {
+		"main": "root/main"
+	}
+}

@@ -1,0 +1,1 @@
+trace('in worker\n');
